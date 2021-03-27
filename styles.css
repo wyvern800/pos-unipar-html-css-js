@@ -1,0 +1,10 @@
+div.articles {
+display: flex;
+flex-direction: column;
+}
+
+main {
+  display:flex;
+  flex-direction: row;
+  border: gray solid 1px
+}
