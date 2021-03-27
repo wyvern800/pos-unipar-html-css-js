@@ -61,7 +61,8 @@ article {
 }
 
 img {
-  width: 25%;
+  width: 100px;
+  height: 100px;
   border: 3px solid black;
 }
 
