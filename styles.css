@@ -3,12 +3,8 @@ nav.navigation {
   justify-content: center;
 }
 
-.content-wrapper {
-
-}
-
 h1.global-title {
- margin-left: 10px;
+  margin-left: 10px;
 }
 
 h1.title-page {
@@ -22,7 +18,7 @@ h2 {
 a.links {
   text-decoration: none;
   font-weight: bolder;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: darkorange;
 }
 
@@ -40,7 +36,7 @@ a.links {
 a.site-links {
   text-decoration: none;
   font-weight: bolder;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: darkorange;
   margin-left: 25px;
   margin-top: 25px;
@@ -56,7 +52,8 @@ article {
 }
 
 .author {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -64,6 +61,28 @@ img {
   width: 100px;
   height: 100px;
   border: 3px solid black;
+}
+
+.contact-panel {
+  display: flex;
+  border: 1px solid gray;
+  justify-content: center;
+  padding:30px;
+}
+
+label {
+  width:180px;
+  clear:left;
+  text-align:right;
+  padding-right:10px;
+}
+
+input, label {
+  float:left;
+  margin-bottom: 15px;
+}
+ button {
+  color: blue;
 }
 
 footer {
