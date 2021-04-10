@@ -4,67 +4,109 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link href="css/base.css" rel="stylesheet" />
     <title>HTML5, CSS3, JS</title>
   </head>
   <body>
-    <div class="content-wrapper">
-      <header>
-        <h1 class="global-title">Pos Graduação - HTML5, CSS3, JS</h1>
-      </header>
-      <nav class="navigation">
-        <a class="site-links" href="index.html">Home</a>
-        <a class="site-links" href="#">Produtos</a>
-        <a class="site-links" href="contato.html">Contato</a>
-      </nav>
-      <main>
-        <h1 class="title-page">Artigos</h1>
-        <div class="articles">
-          <article>
-            <h3>Título 1</h3>
-            <p class="author">
-              <b>Autor:</b> matheus@gmail.com |
-              <b>Data da Postagem:</b> 27:03:21 às 14:25
-            </p>
-            <img
-              src="https://source.unsplash.com/random/100x100"
-              alt="Foto incrívelmente boa"
-            />
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            <a class="links" href="#">Continar lendo...</a>
-          </article>
-          <article>
-            <h3>Título 2</h3>
-            <p class="author">
-              <b>Autor:</b> matheus@gmail.com |
-              <b>Data da Postagem:</b> 27:03:21 às 14:25
-            </p>
-            <img
-              src="https://source.unsplash.com/random/100x100"
-              alt="Foto incrívelmente boa"
-            />
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            <a class="links" href="#">Continar lendo...</a>
-          </article>
-          <article>
-            <h3>Título 3</h3>
-            <p class="author">
-              <b>Autor:</b> matheus@gmail.com |
-              <b>Data da Postagem:</b> 27:03:21 às 14:25
-            </p>
-            <img
-              src="https://source.unsplash.com/random/100x100"
-              alt="Foto incrívelmente boa"
-            />
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            <a class="links" href="#">Continar lendo...</a>
-          </article>
-        </div>
-      </main>
-      <footer>
-        Matheus Guilherme Ferreira - 000181627 - Pós Graduação em
-        Desenvolvimento Web e Mobile Unipar
-      </footer>
+    <header class="jumbotron jumbotron-fluid" id="jumbo">
+      <div class="container">
+        <h1 class="display-4">Pos Graduação - HTML5, CSS3, JS</h1>
+        <p class="lead">Site para exemplificação de funcionalidades.</p>
+      </div>
+    </header>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="alert alert-info" role="alert">
+      Home
     </div>
+    <main class="content">
+      <div class="card-deck">
+        <article class="card">
+          <img
+            class="card-img-top"
+            src="https://source.unsplash.com/random/80x50"
+            alt="Foto incrívelmente boa"
+          />
+          <div class="card-body">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text">
+              Aprenda tudo sobre JavaScript aqui
+            </p>
+            <p class="card-text">
+              <a class="links" href="#">Continar lendo...</a>
+            </p>
+            <div class="card-footer">
+              <small class="text-muted">Autor: matheus@gmail.com</small>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <img
+            class="card-img-top"
+            src="https://source.unsplash.com/random/80x50"
+            alt="Foto incrívelmente boa"
+          />
+          <div class="card-body">
+            <h5 class="card-title">CSS</h5>
+            <p class="card-text">
+              Aprenda mais sobre CSS
+            </p>
+            <p class="card-text">
+              <a class="links" href="#">Continar lendo...</a>
+            </p>
+            <div class="card-footer">
+              <small class="text-muted">Autor: matheus@gmail.com</small>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <img
+            class="card-img-top"
+            src="https://source.unsplash.com/random/80x50"
+            alt="Foto incrívelmente boa"
+          />
+          <div class="card-body">
+            <h5 class="card-title">JQuery</h5>
+            <p class="card-text">
+              Tudo sobre JQuery
+            </p>
+            <p class="card-text">
+              <a class="links" href="#">Continar lendo...</a>
+            </p>
+            <div class="card-footer">
+              <small class="text-muted">Autor: matheus@gmail.com</small>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+    <footer class="alert alert-dark" id="jumbo">
+      <div class="container">
+        <p class="lead">
+          Matheus Guilherme Ferreira - 000181627 - Pós Graduação em
+          Desenvolvimento Web e Mobile Unipar
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

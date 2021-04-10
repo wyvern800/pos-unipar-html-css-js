@@ -1,0 +1,24 @@
+.content {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content-contato {
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+.contact-panel {
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  padding-bottom: 20px;
+}
+
+#jumbo {
+  margin-bottom: 0rem;
+  align-content: center;
+}
